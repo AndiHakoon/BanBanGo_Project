@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "130791973182",
+    "project_id": "banbango-project",
+    "storage_bucket": "banbango-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130791973182:android:43dfcf62f30929eef34c6f",
+        "android_client_info": {
+          "package_name": "com.example.banbango_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130791973182-2r9ldnf59abklpk5qbu0caqboefr5k6v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.banbango_project",
+            "certificate_hash": "b412c92390ed5a5435342ed71b7070efdd8d0c35"
+          }
+        },
+        {
+          "client_id": "130791973182-ta8vtnd37ohrj98lbne4cosvh8o2op7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTktOCjHffBZp9BOanfExhVNlxNNSggZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130791973182-ta8vtnd37ohrj98lbne4cosvh8o2op7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
