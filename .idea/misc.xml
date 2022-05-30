@@ -3,16 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/BanBanGo_Project/app/src/main/res/drawable-v24/header.xml" value="0.1" />
+        <entry key="..\:/BanBanGo_Project/app/src/main/res/drawable-v24/splash.xml" value="0.2203125" />
+        <entry key="..\:/BanBanGo_Project/app/src/main/res/drawable/card_menu.xml" value="0.1814814814814815" />
+        <entry key="..\:/BanBanGo_Project/app/src/main/res/drawable/header.xml" value="0.1" />
+        <entry key="..\:/BanBanGo_Project/app/src/main/res/drawable/ic_account.xml" value="0.1" />
+        <entry key="..\:/BanBanGo_Project/app/src/main/res/drawable/ic_back.xml" value="0.2203125" />
         <entry key="..\:/BanBanGo_Project/app/src/main/res/drawable/ic_cari.xml" value="0.2203125" />
+        <entry key="..\:/BanBanGo_Project/app/src/main/res/drawable/ic_chat.xml" value="0.2203125" />
+        <entry key="..\:/BanBanGo_Project/app/src/main/res/drawable/ic_favorit.xml" value="0.11666666666666667" />
+        <entry key="..\:/BanBanGo_Project/app/src/main/res/drawable/ic_history.xml" value="0.2203125" />
+        <entry key="..\:/BanBanGo_Project/app/src/main/res/drawable/ic_home.xml" value="0.2203125" />
         <entry key="..\:/BanBanGo_Project/app/src/main/res/drawable/ic_person.xml" value="0.2203125" />
+        <entry key="..\:/BanBanGo_Project/app/src/main/res/drawable/ic_promo.xml" value="0.2203125" />
+        <entry key="..\:/BanBanGo_Project/app/src/main/res/drawable/ic_rumah.xml" value="0.2203125" />
+        <entry key="..\:/BanBanGo_Project/app/src/main/res/drawable/splash.xml" value="0.1" />
+        <entry key="..\:/BanBanGo_Project/app/src/main/res/drawable/splash2.xml" value="0.1" />
+        <entry key="..\:/BanBanGo_Project/app/src/main/res/layout/activity_cari_lokasi.xml" value="0.20416666666666666" />
         <entry key="..\:/BanBanGo_Project/app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="..\:/BanBanGo_Project/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/BanBanGo_Project/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/BanBanGo_Project/app/src/main/res/layout/activity_maps.xml" value="0.20416666666666666" />
         <entry key="..\:/BanBanGo_Project/app/src/main/res/layout/activity_register.xml" value="0.18" />
-        <entry key="..\:/Users/Raven/BanBanGo_Project/app/src/main/res/layout/activity_cari_lokasi.xml" value="0.18" />
+        <entry key="..\:/BanBanGo_Project/app/src/main/res/layout/toolbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/BanBanGo_Project/app/src/main/res/menu/item_bottom_navigasi.xml" value="0.25" />
         <entry key="..\:/Users/Raven/BanBanGo_Project/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/Raven/BanBanGo_Project/app/src/main/res/layout/activity_main.xml" value="0.1272644927536232" />
         <entry key="..\:/Users/Raven/BanBanGo_Project/app/src/main/res/layout/activity_register.xml" value="0.22" />
-        <entry key="..\:/Users/Raven/BanBanGo_Project/app/src/main/res/layout/toolbar.xml" value="0.14402173913043478" />
       </map>
     </option>
   </component>

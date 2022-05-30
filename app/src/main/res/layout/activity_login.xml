@@ -97,17 +97,17 @@
 
     <Button
         android:id="@+id/btnlogingoogle"
-        android:text="LOGIN DENGAN GOOGLE"
-        android:layout_below="@id/btnLogin"
-        android:layout_centerHorizontal="true"
-        android:width="300dp"
-        android:background="@drawable/button_shape"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        android:fontFamily="@font/poppinsbold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        />
+        android:layout_below="@id/btnLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:width="300dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/poppinsbold"
+        android:text="LOGIN DENGAN GOOGLE"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
     <LinearLayout
         android:orientation="horizontal"
         android:layout_below="@id/btnLogin"
