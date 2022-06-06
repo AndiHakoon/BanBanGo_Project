@@ -21,9 +21,9 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_back"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_back" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -57,7 +57,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        >
+        >   
         <EditText
             android:id="@+id/EditEnterEmail"
             android:layout_width="match_parent"
@@ -83,17 +83,17 @@
 
     <Button
         android:id="@+id/btnLogin"
-        android:text="Log In"
-        android:layout_below="@id/lyt_login"
-        android:layout_centerHorizontal="true"
-        android:width="300dp"
-        android:background="@drawable/button_shape"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        android:fontFamily="@font/poppinsbold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        />
+        android:layout_below="@id/lyt_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:width="300dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Log In"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/btnlogingoogle"
