@@ -4,8 +4,8 @@ import android.os.Bundle;
 
 import androidx.fragment.app.FragmentActivity;
 
-import com.example.banbango_project.Activity.databinding.ActivityMapsBinding;
 import com.example.banbango_project.R;
+import com.example.banbango_project.databinding.ActivityMapsBinding;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
