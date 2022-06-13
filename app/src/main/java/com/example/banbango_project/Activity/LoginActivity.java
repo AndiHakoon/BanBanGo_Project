@@ -1,9 +1,5 @@
 package com.example.banbango_project.Activity;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -12,7 +8,12 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.banbango_project.API.BaseAPIServer;
 import com.example.banbango_project.API.UtilsApi;
@@ -43,8 +44,9 @@ import retrofit2.Response;
 public class LoginActivity extends AppCompatActivity {
     private static final String TAG = "";
     EditText EditEnterEmail, EditEnterPass;
-    Button btnLogin;
+    Button btnLogin , btnlogingoogle;
     ProgressDialog loading;
+    TextView txtregister;
 
     Context context;
     BaseAPIServer apiServer;
@@ -61,6 +63,15 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        txtregister = (TextView) findViewById(R.id.txtregister);
+        txtregister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
+                startActivity(intent);
+            }
+        });
 
         auth = FirebaseAuth.getInstance();
         oneTapClient = Identity.getSignInClient(this);
@@ -83,6 +94,7 @@ public class LoginActivity extends AppCompatActivity {
     private void initComponenets() {
         EditEnterEmail = (EditText) findViewById(R.id.EditEnterEmail);
         EditEnterPass = (EditText) findViewById(R.id.EditEnterPass);
+        btnlogingoogle = (Button) findViewById(R.id.btnlogingoogle);
         btnLogin = (Button) findViewById(R.id.btnLogin);
 
         btnLogin.setOnClickListener(new View.OnClickListener() {

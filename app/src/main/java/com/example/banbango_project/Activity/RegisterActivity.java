@@ -1,7 +1,5 @@
 package com.example.banbango_project.Activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -10,7 +8,10 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.banbango_project.API.BaseAPIServer;
 import com.example.banbango_project.API.UtilsApi;
@@ -27,6 +28,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class RegisterActivity extends AppCompatActivity {
+    ImageView btnback;
     EditText edit_nama, edit_email, edit_password;
     Button btn1;
     ProgressDialog loading;
@@ -37,6 +39,15 @@ public class RegisterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+
+        btnback = (ImageView) findViewById(R.id.btnback);
+        btnback.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
+                startActivity(intent);
+            }
+        });
 
         context = this;
         apiServer = UtilsApi.getApiService();
@@ -71,7 +82,8 @@ public class RegisterActivity extends AppCompatActivity {
                                 JSONObject jsonObject = new JSONObject(response.body().string());
                                 if (jsonObject.getString("error").equals("false")){
                                     Toast.makeText(context, "Registrasi Berhasil", Toast.LENGTH_SHORT).show();
-                                    startActivity(new Intent(context, LoginActivity.class));
+                                    Intent intent = new Intent(context, LoginActivity.class);
+                                    startActivity(intent);
                                 } else {
                                     String error_message = jsonObject.getString("error_msg");
                                     Toast.makeText(context, error_message, Toast.LENGTH_SHORT).show();

@@ -58,6 +58,7 @@
                 <Button
                     android:layout_width="30dp"
                     android:layout_height="30dp"
+                    android:id="@+id/btnsettings"
                     android:layout_gravity="center"
                     android:background="@drawable/ic_account" />
             </androidx.cardview.widget.CardView>
@@ -132,6 +133,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:id="@+id/tmblban"
                             android:adjustViewBounds="true"
                             android:cropToPadding="true"
                             android:src="@drawable/ban" />

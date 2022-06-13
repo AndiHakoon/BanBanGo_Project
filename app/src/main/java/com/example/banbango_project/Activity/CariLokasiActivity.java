@@ -25,7 +25,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.banbango_project.Model.MainViewModel;
 import com.example.banbango_project.Model.ModelResults;
-import com.example.banbango_project.databinding.ActivityCariLokasiBinding;
+import com.example.banbango_project.databinding.ActivityMapsBinding;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -43,7 +43,7 @@ import im.delight.android.location.SimpleLocation;
 
 public class CariLokasiActivity extends AppCompatActivity implements OnMapReadyCallback {
 
-    private ActivityCariLokasiBinding binding;
+    private ActivityMapsBinding binding;
     int REQ_PERMISSION = 100;
     double strCurrentLatitude;
     double strCurrentLongitude;
@@ -57,7 +57,7 @@ public class CariLokasiActivity extends AppCompatActivity implements OnMapReadyC
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityCariLokasiBinding.inflate(getLayoutInflater());
+        binding = ActivityMapsBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         setStatusBar();
