@@ -11,15 +11,12 @@ public class ModelUser {
     private String email;
     @SerializedName("password")
     private String password;
-    @SerializedName("kontak")
-    private String kontak;
 
     public ModelUser(int id, String nama, String email, String password, String kontak) {
         this.id = id;
         this.nama = nama;
         this.email = email;
         this.password = password;
-        this.kontak = kontak;
     }
 
     public int getId() {
@@ -54,11 +51,4 @@ public class ModelUser {
         this.password = password;
     }
 
-    public String getKontak() {
-        return kontak;
-    }
-
-    public void setKontak(String kontak) {
-        this.kontak = kontak;
-    }
 }

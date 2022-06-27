@@ -20,7 +20,7 @@ public class MainViewModel extends ViewModel {
     public static String strApiKey = "AIzaSyC7PIFPfhiuxbRYY9N09JWzoUFSAjI5XcU";
 
     public void setMarkerLocation(String strLocation, String strKeyword){
-        ApiInterface apiService = ServerAPI.getClient(ServerAPI.base_URL).create(ApiInterface.class);
+        ApiInterface apiService = ServerAPI.getClient().create(ApiInterface.class);
 
         Call<ModelResultNearby> call = apiService.getDataResult(strApiKey, strKeyword, strLocation, "distance");
         call.enqueue(new Callback<ModelResultNearby>() {
