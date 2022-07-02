@@ -19,6 +19,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme2.BanBanGo_Project">
         <activity
+            android:name=".Activity.KotaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.BengkelActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.DetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.ProvinsiActivity"
+            android:exported="true" />
+        <activity
             android:name=".Activity.CariTambal"
             android:exported="true" />
         <activity

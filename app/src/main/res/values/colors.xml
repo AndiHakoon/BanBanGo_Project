@@ -9,8 +9,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="background">#A1EEEEEE</color>
     <color name="primaryColor">#50C2C9</color>
+    <color name="primaryColorDark">#047077</color>
     <color name="secondaryColor">#50C2C9</color>
     <color name="color1">#0DAB98</color>
     <color name="splash">#9DBEBE</color>
     <color name="card">#DDE7E7</color>
+    <color name="colorAccent">#11738C</color>
 </resources>
