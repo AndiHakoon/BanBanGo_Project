@@ -20,9 +20,10 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_back"
+        android:id="@+id/btnback"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_back" />
 
     <TextView
         android:id="@+id/txt1"
@@ -59,6 +60,7 @@
             android:id="@+id/edit_nama"
             android:layout_width="match_parent"
             android:layout_height="57dp"
+            android:textColor="@color/black"
             android:background="@drawable/button_shape"
             android:backgroundTint="@color/white"
             android:fontFamily="@font/poppinsregular"
@@ -68,8 +70,10 @@
         <EditText
             android:id="@+id/edit_email"
             android:layout_width="match_parent"
+            android:textColor="@color/black"
             android:layout_height="57dp"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:background="@drawable/button_shape"
             android:backgroundTint="@color/white"
             android:fontFamily="@font/poppinsregular"
@@ -80,6 +84,7 @@
             android:id="@+id/edit_password"
             android:layout_width="match_parent"
             android:layout_height="57dp"
+            android:textColor="@color/black"
             android:layout_marginTop="10dp"
             android:background="@drawable/button_shape"
             android:backgroundTint="@color/white"
@@ -87,20 +92,11 @@
             android:hint="Enter password"
             android:paddingLeft="10dp" />
 
-        <EditText
-            android:id="@+id/edit_cpassword"
-            android:layout_width="match_parent"
-            android:layout_height="57dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/button_shape"
-            android:backgroundTint="@color/white"
-            android:fontFamily="@font/poppinsregular"
-            android:hint="Confirm password"
-            android:paddingLeft="10dp" />
+
     </LinearLayout>
 
     <Button
-        android:id="@+id/btn1"
+        android:id="@+id/btnregister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/layout1"
@@ -116,12 +112,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_below="@+id/btn1"
+        android:layout_below="@+id/btnregister"
         android:gravity="center"
         android:layout_marginTop="20dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/sudahpunyaakun"
             android:text="Alredy have an account?"
             android:fontFamily="@font/poppinsregular"
             android:textSize="12sp"/>

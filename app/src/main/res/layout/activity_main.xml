@@ -58,6 +58,7 @@
                 <Button
                     android:layout_width="30dp"
                     android:layout_height="30dp"
+                    android:id="@+id/btnsettings"
                     android:layout_gravity="center"
                     android:background="@drawable/ic_account" />
             </androidx.cardview.widget.CardView>
@@ -132,6 +133,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:id="@+id/tmblban"
                             android:adjustViewBounds="true"
                             android:cropToPadding="true"
                             android:src="@drawable/ban" />
@@ -259,8 +261,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
-                android:text="Akses Cepat"
                 android:layout_marginTop="3dp"
+                android:text="Akses Cepat"
                 android:textSize="15dp"
                 android:textStyle="bold" />
 
@@ -284,11 +286,11 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Ada Voucher nganggur nih..."
                     android:layout_toEndOf="@+id/vc"
                     android:layout_toRightOf="@+id/vc"
+                    android:text="Ada Voucher nganggur nih..."
                     android:textColor="@color/splash"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -300,12 +302,13 @@
                 android:background="@drawable/splash2"
                 android:orientation="horizontal"
                 android:padding="10dp">
+
                 <ImageView
                     android:id="@+id/bk"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_alignParentLeft="true"
-                    android:src="@drawable/bengkel"/>
+                    android:src="@drawable/bengkel" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -321,8 +324,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
-                android:text="Tarif"
                 android:layout_marginTop="3dp"
+                android:text="Tarif"
                 android:textSize="15dp"
                 android:textStyle="bold" />
 

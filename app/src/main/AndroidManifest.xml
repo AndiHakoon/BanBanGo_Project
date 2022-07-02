@@ -7,16 +7,23 @@
          location permissions for the "MyLocation" functionality.
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.BanBanGo_Project">
+        android:theme="@style/Theme2.BanBanGo_Project">
+        <activity
+            android:name=".Activity.CariTambal"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Tambalban_Activity"
+            android:exported="true" />
         <activity
             android:name=".Activity.CariLokasiActivity"
             android:exported="true" />
@@ -32,10 +39,6 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity
-            android:name=".Activity.MapsActivity"
-            android:exported="true"
-            android:label="@string/title_activity_maps" />
         <activity
             android:name=".Activity.ProfileActivity"
             android:exported="true" />
