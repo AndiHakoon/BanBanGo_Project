@@ -1,7 +1,6 @@
 package com.example.banbango_project.data.model.details
 
 
-import com.example.banbango_project.Model.ModelGeometry
 import com.google.gson.annotations.SerializedName
 
 

@@ -24,7 +24,6 @@ import androidx.core.app.ActivityCompat;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.banbango_project.Model.MainViewModel;
-import com.example.banbango_project.Model.ModelResults;
 import com.example.banbango_project.databinding.ActivityMapsBinding;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
