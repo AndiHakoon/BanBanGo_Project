@@ -77,7 +77,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
-                android:text="Mau ke mana hari ini?"
+                android:text="DImana kamu sekarang?"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -102,7 +102,7 @@
                         android:drawableStart="@drawable/ic__origin"
                         android:drawablePadding="10dp"
                         android:drawableTint="@android:color/holo_red_light"
-                        android:hint="Cari lokasi tujuan"
+                        android:hint="Cari Lokasi Sekarang"
                         android:imeOptions="actionSearch"
                         android:paddingStart="10dp"
                         android:singleLine="true"

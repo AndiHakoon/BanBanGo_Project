@@ -17,7 +17,7 @@ import retrofit2.Response;
 
 public class MainViewModel extends ViewModel {
     private final MutableLiveData<ArrayList<ModelResults>> modelResultMutableLiveData = new MutableLiveData<>();
-    public static String strApiKey = "AIzaSyC7PIFPfhiuxbRYY9N09JWzoUFSAjI5XcU";
+    public static String strApiKey = "AIzaSyDMlm_EhhBUNpfJvCwjWSuM0pcMjNSn-SQ";
 
     public void setMarkerLocation(String strLocation, String strKeyword){
         ApiInterface apiService = ServerAPI.getClient().create(ApiInterface.class);

@@ -2,4 +2,5 @@
     <string name="app_name">BanBanGo_Project</string>
     <string name="web_client_id">130791973182-ta8vtnd37ohrj98lbne4cosvh8o2op7q.apps.googleusercontent.com</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="api_key"></string> AIzaSyDMlm_EhhBUNpfJvCwjWSuM0pcMjNSn-SQ
 </resources>

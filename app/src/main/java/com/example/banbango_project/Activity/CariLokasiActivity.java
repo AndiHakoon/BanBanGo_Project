@@ -25,6 +25,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.banbango_project.Model.MainViewModel;
 import com.example.banbango_project.Model.ModelResults;
+import com.example.banbango_project.R;
 import com.example.banbango_project.databinding.ActivityMapsBinding;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -163,6 +164,10 @@ public class CariLokasiActivity extends AppCompatActivity implements OnMapReadyC
                 String strAddress = addressList.get(0).getAddressLine(0);
                 binding.tvCurrentLocation.setText(strCurrentLocation);
                 binding.tvAddress.setText(strAddress);
+                mapsView.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(strCurrentLatitude, strCurrentLongitude),14));
+                mapsView.addMarker(new MarkerOptions().position(addressList.get(0))
+                        .title("Lokasi Anda Sekarang")
+                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_baseline_location_on_24)));
             }
         } catch (IOException e) {
             e.printStackTrace();

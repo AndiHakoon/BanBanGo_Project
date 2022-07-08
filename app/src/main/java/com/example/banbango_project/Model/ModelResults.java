@@ -2,10 +2,7 @@ package com.example.banbango_project.Model;
 
 import com.google.gson.annotations.SerializedName;
 
-import java.lang.annotation.Annotation;
-
-public class ModelResults implements SerializedName {
-
+public class ModelResults {
     @SerializedName("geometry")
     private ModelGeometry modelGeometry;
 
@@ -16,10 +13,10 @@ public class ModelResults implements SerializedName {
     private String vicinity;
 
     @SerializedName("place_id")
-    private String place_id;
+    private String placeId;
 
     @SerializedName("rating")
-    private String rating;
+    private double rating;
 
     public ModelGeometry getModelGeometry() {
         return modelGeometry;
@@ -45,34 +42,19 @@ public class ModelResults implements SerializedName {
         this.vicinity = vicinity;
     }
 
-    public String getPlace_id() {
-        return place_id;
+    public String getPlaceId() {
+        return placeId;
     }
 
-    public void setPlace_id(String place_id) {
-        this.place_id = place_id;
+    public void setPlaceId(String placeId) {
+        this.placeId = placeId;
     }
 
-    public String getRating() {
+    public double getRating() {
         return rating;
     }
 
-    public void setRating(String rating) {
+    public void setRating(double rating) {
         this.rating = rating;
-    }
-
-    @Override
-    public String value() {
-        return null;
-    }
-
-    @Override
-    public String[] alternate() {
-        return new String[0];
-    }
-
-    @Override
-    public Class<? extends Annotation> annotationType() {
-        return null;
     }
 }

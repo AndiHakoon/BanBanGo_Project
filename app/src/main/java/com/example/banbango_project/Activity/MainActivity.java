@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         sessionManager = new SessionManager(MainActivity.this);
-        if (sessionManager.isLoggedIn() == false){
+        if (!sessionManager.isLoggedIn()){
             moveToLogin();
         }
 

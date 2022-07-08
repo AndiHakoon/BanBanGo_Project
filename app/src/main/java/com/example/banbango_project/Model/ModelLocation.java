@@ -3,7 +3,6 @@ package com.example.banbango_project.Model;
 import com.google.gson.annotations.SerializedName;
 
 public class ModelLocation {
-
     @SerializedName("lat")
     private Double lat;
 

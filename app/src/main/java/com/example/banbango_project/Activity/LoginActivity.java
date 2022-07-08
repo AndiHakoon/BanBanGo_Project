@@ -1,6 +1,5 @@
 package com.example.banbango_project.Activity;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -23,8 +22,7 @@ import retrofit2.Response;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
     EditText EditEnterEmail, EditEnterPass;
-    Button btnLogin, btnlogingoogle;
-    ProgressDialog loading;
+    Button btnLogin;
     TextView txtregister;
     String Username, Password;
     SessionManager sessionManager;
