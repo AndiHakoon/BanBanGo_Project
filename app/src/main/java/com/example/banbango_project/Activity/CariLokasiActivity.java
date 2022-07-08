@@ -164,8 +164,8 @@ public class CariLokasiActivity extends AppCompatActivity implements OnMapReadyC
                 String strAddress = addressList.get(0).getAddressLine(0);
                 binding.tvCurrentLocation.setText(strCurrentLocation);
                 binding.tvAddress.setText(strAddress);
-                mapsView.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(strCurrentLatitude, strCurrentLongitude),14));
-                mapsView.addMarker(new MarkerOptions().position(addressList.get(0))
+                mapsView.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(strCurrentLatitude, strCurrentLongitude), 14));
+                mapsView.addMarker(new MarkerOptions().position(new LatLng(addressList.get(0).getLatitude(), addressList.get(0).getLongitude()))
                         .title("Lokasi Anda Sekarang")
                         .icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_baseline_location_on_24)));
             }
